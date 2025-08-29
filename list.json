@@ -1,70 +1,70 @@
 [
   {
-    "img_src": "https://ggorr.github.io/fractal/images/N_230901_204611.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/N_230901_204611.png",
     "signature": "Newton;-1.1953333333333331;-0.3953333333333332;-0.3986666666666669;0.4013333333333328;750.0;750.0;10000;16;HSL1;z^3-1;z;3z^2;0.000000000001;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/N_230901_204627.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/N_230901_204627.png",
     "signature": "Newton;-40.79533333333334;39.20466666666667;-39.99866666666666;40.00133333333332;7.5;7.5;10000;16;HSL1;z^3-1;z^2;z;0.000000000001;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/N_230901_204639.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/N_230901_204639.png",
     "signature": "Newton;-2.4753333333333374;-1.675333333333337;-0.412000000000015;0.3879999999999839;750.0;750.0;2560000;16;HSL3;z^3-z^2+1;z^2-4;z;0.000000000001;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230901_204659.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230901_204659.png",
     "signature": "Mandelbrot;-2;2;-1.5;1.5;300.0;300.0;100000;16;HSL1;z^2+z;z^2;z^2;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/N_230901_204709.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/N_230901_204709.png",
     "signature": "Newton;-200;200;-200;200;2.0;2.0;10000000;16;RGB1;z^3-1;z;z;0.000000000001;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/J_230901_204719.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/J_230901_204719.png",
     "signature": "Julia;-1.0;1.0;-1.0;1.0;400.0;400.0;10000;16;HSL0;z^2-0.75+0.1234i;z;z;1;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230901_204815.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230901_204815.png",
     "signature": "Mandelbrot;-1.4;4.1;-1.7;1.7;200.0;200.0;1000;16;RGB1;z^2;1/z;1/z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230901_204827.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230901_204827.png",
     "signature": "Mandelbrot;-2.1;1.1;-1.5;1.5;200.0;200.0;1000;16;RGB0;(z^2-1)/(1.3z-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230901_204837.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230901_204837.png",
     "signature": "Mandelbrot;0.10386666666666701;0.11986666666666702;-0.007016666666666708;0.007983333333333294;60000;60000;10000;16;HSL0;(z^2-1)/(1.3z-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230901_204903.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230901_204903.png",
     "signature": "Mandelbrot;-1.91063;1.28937;-1.4999966666666669;1.500003333333334;300;300;1000;16;GBR0;(z^2-1)/(1.1z-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/N_230901_205714.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/N_230901_205714.png",
     "signature": "Newton;0.34195;0.42195;-0.7365;-0.6564999999999996;10000;10000;1000;16;HSL1;z^4-1;z;4z^3;0.000000000001;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230911_124859.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230911_124859.png",
     "signature": "Mandelbrot;-2.1;1.1;-1.5;1.5;200;200;1000;16;RGB0;z^2;z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230924_125456.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230924_125456.png",
     "signature": "Mandelbrot;-2;2;-2;2;200;200;10000;16;RGB0;(z^2+1)/(z^2-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230924_125656.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230924_125656.png",
     "signature": "Mandelbrot;-2;2;-2;2;200;200;10000;16;YMC0;(z^2+1)/(z^2-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230924_130219.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230924_130219.png",
     "signature": "Mandelbrot;-2;2;-2;2;200;200;10000;16;HSB0;(z^2+1)/(z^2-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/M_230924_211004.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/M_230924_211004.png",
     "signature": "Mandelbrot;-0.1509;0.2491;-1.160552;-0.76055;2000;2000;10000;16;HSB0;(z^2+1)/(z^2-1);z;z;2;"
   },
   {
-    "img_src": "https://ggorr.github.io/fractal/images/J_230901_204556.png",
+    "img_src": "https://ks0x00.github.io/fractal/images/J_230901_204556.png",
     "signature": "Julia;-0.5018946093750005;-0.5018942093750005;0.06158314531250016;0.06158354531250014;2370370370.370371;2370370370.370371;1000000;16;HSL0;z^2-0.75+0.1234i;z;z;2;"
   }
 ]

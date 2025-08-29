@@ -5,26 +5,55 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Fractal</title>
+    <script>
+        function showImage(imageSrc) {
+            // 이미지 태그의 src 속성을 변경하여 이미지를 출력합니다.
+            document.getElementById('imageId').src = imageSrc;
+        }
+    </script>
+    <style>
+        .left-aligned {
+            float: left;
+            margin-right: 20px; /* 다른 요소와의 간격 */
+        }
+        .right-aligned {
+            float: right;
+            margin-left: 20px; /* 다른 요소와의 간격 */
+        }
+        .container::after { /* float 해제 */
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
 </head>
 
 <body>
-1. <a download="J_230901_204556.png" href="images/J_230901_204556.png">J_230901_204556.png</a><br>
-2. <a download="J_230901_204719.png" href="images/J_230901_204719.png">J_230901_204719.png</a><br>
-3. <a download="M_230901_204659.png" href="images/M_230901_204659.png">M_230901_204659.png</a><br>
-4. <a download="M_230901_204815.png" href="images/M_230901_204815.png">M_230901_204815.png</a><br>
-5. <a download="M_230901_204827.png" href="images/M_230901_204827.png">M_230901_204827.png</a><br>
-6. <a download="M_230901_204837.png" href="images/M_230901_204837.png">M_230901_204837.png</a><br>
-7. <a download="M_230901_204903.png" href="images/M_230901_204903.png">M_230901_204903.png</a><br>
-8. <a download="M_230911_124859.png" href="images/M_230911_124859.png">M_230911_124859.png</a><br>
-9. <a download="M_230924_125456.png" href="images/M_230924_125456.png">M_230924_125456.png</a><br>
-10. <a download="M_230924_125656.png" href="images/M_230924_125656.png">M_230924_125656.png</a><br>
-11. <a download="M_230924_130219.png" href="images/M_230924_130219.png">M_230924_130219.png</a><br>
-12. <a download="M_230924_211004.png" href="images/M_230924_211004.png">M_230924_211004.png</a><br>
-13. <a download="N_230901_204611.png" href="images/N_230901_204611.png">N_230901_204611.png</a><br>
-14. <a download="N_230901_204627.png" href="images/N_230901_204627.png">N_230901_204627.png</a><br>
-15. <a download="N_230901_204639.png" href="images/N_230901_204639.png">N_230901_204639.png</a><br>
-16. <a download="N_230901_204709.png" href="images/N_230901_204709.png">N_230901_204709.png</a><br>
-17. <a download="N_230901_205714.png" href="images/N_230901_205714.png">N_230901_205714.png</a>
+    <h3>그림 파일</h3>
+    <div class="left-aligned">
+        <ol>
+            <li><a href="#" onclick="showImage('images/M_230901_204659.png'); return false;">M_230901_204659.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230901_204815.png'); return false;">M_230901_204815.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230901_204827.png'); return false;">M_230901_204827.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230901_204837.png'); return false;">M_230901_204837.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230901_204903.png'); return false;">M_230901_204903.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230911_124859.png'); return false;">M_230911_124859.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230924_125456.png'); return false;">M_230924_125456.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230924_125656.png'); return false;">M_230924_125656.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230924_130219.png'); return false;">M_230924_130219.png</a></li>
+            <li><a href="#" onclick="showImage('images/M_230924_211004.png'); return false;">M_230924_211004.png</a></li>
+            <li><a href="#" onclick="showImage('images/N_230901_204611.png'); return false;">N_230901_204611.png</a></li>
+            <li><a href="#" onclick="showImage('images/J_230901_204556.png'); return false;">J_230901_204556.png</a></li>
+            <li><a href="#" onclick="showImage('images/J_230901_204719.png'); return false;">J_230901_204719.png</a></li>
+            <li><a href="#" onclick="showImage('images/N_230901_204627.png'); return false;">N_230901_204627.png</a></li>
+            <li><a href="#" onclick="showImage('images/N_230901_204639.png'); return false;">N_230901_204639.png</a></li>
+            <li><a href="#" onclick="showImage('images/N_230901_204709.png'); return false;">N_230901_204709.png</a></li>
+            <li><a href="#" onclick="showImage('images/N_230901_205714.png'); return false;">N_230901_205714.png</a></li>
+        </ol>
+    </div>
+    <div class = "left-aligned">
+        <img id="imageId" src="" alt="" width="400">
+    </div>
 </body>
 
 </html>
